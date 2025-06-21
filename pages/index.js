@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "Joel Ct - CARY, NC",
-    description: "Opened up kitchen. New hardwood flooring. Remodeled bathrooms, landscaping, new lighting.",
+    description: "Opened up kitchen. New hardwood flooring. Remodeled bathrooms, landscaping, new lighting. All new appliances",
     beforeImgs: [
       "/images/Joel-before/7.jpeg",
       
@@ -71,6 +71,37 @@ const projects = [
       "/images/Joel-after/11.jpeg",
       "/images/Joel-after/3.jpeg",
       "/images/Joel-after/4.jpeg"
+    ]
+  },
+  {
+    title: "Wyman Pl - DURHAM, NC",
+    description: "Integrated kitchen, new door to new deck. New hardwood flooring. Remodeled bathrooms, landscaping, new fence. All new appliances. Encapsulated crawl space.",
+    beforeImgs: [
+      "/images/Wyman-before/1.jpeg",
+      "/images/Wyman-before/2.jpeg",
+      "/images/Wyman-before/3.jpeg",
+      "/images/Wyman-before/4.jpeg",
+      "/images/Wyman-before/5.jpeg",
+      "/images/Wyman-before/6.jpeg",
+      "/images/Wyman-before/7.jpeg",
+      "/images/Wyman-before/8.jpeg",
+      "/images/Wyman-before/9.jpeg",
+      "/images/Wyman-before/10.jpeg"
+    ],
+    afterImgs: [
+      "/images/Wyman-after/1.jpeg",
+      "/images/Wyman-after/2.jpeg",
+      "/images/Wyman-after/3.jpeg",
+      "/images/Wyman-after/4.jpeg",
+      "/images/Wyman-after/5.jpeg",
+      "/images/Wyman-after/6.jpeg",
+      "/images/Wyman-after/7.jpeg",
+      "/images/Wyman-after/8.jpeg",
+      "/images/Wyman-after/9.jpeg",
+      "/images/Wyman-after/10.jpeg",
+      "/images/Wyman-after/11.jpeg",
+      "/images/Wyman-after/12.jpeg",
+      "/images/Joel-after/13.jpeg"
     ]
   }
 ];
