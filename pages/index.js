@@ -3,7 +3,7 @@ import { useState } from 'react';
 const projects = [
   {
     title: "Caniff Ln - CARY, NC",
-    description: "Complete transformation.",
+    description: "On this house we have installed all new hardwood floors, kitchen cabinets, lighting, paint, bathrooms, outdoor patio, landscaping.",
     beforeImgs: [
       "/images/Caniff-before/1.jpeg",
 
@@ -48,28 +48,29 @@ const projects = [
   },
   {
     title: "Joel Ct - CARY, NC",
-    description: "Updated kitchen and bathroom layout, lighting, and structural elements at the Joel property with clean, modern design choices.",
+    description: "Opened up kitchen. New hardwood flooring. Remodeled bathrooms, landscaping, new lighting.",
     beforeImgs: [
-      "/images/Joel-before/1.jpeg",
-      "/images/Joel-before/2.jpeg",
+      "/images/Joel-before/7.jpeg",
+      
       "/images/Joel-before/3.jpeg",
+      "/images/Joel-before/2.jpeg",
       "/images/Joel-before/4.jpeg",
       "/images/Joel-before/5.jpeg",
       "/images/Joel-before/6.jpeg",
-      "/images/Joel-before/7.jpeg"
+      "/images/Joel-before/1.jpeg"
     ],
     afterImgs: [
       "/images/Joel-after/1.jpeg",
       "/images/Joel-after/2.jpeg",
-      "/images/Joel-after/3.jpeg",
-      "/images/Joel-after/4.jpeg",
       "/images/Joel-after/5.jpeg",
       "/images/Joel-after/6.jpeg",
       "/images/Joel-after/7.jpeg",
       "/images/Joel-after/8.jpeg",
-      "/images/Joel-after/9.jpeg",
       "/images/Joel-after/10.jpeg",
-      "/images/Joel-after/11.jpeg"
+      "/images/Joel-after/11.jpeg",
+      "/images/Joel-after/3.jpeg",
+      "/images/Joel-after/4.jpeg",
+      "/images/Joel-after/9.jpeg"
     ]
   }
 ];
