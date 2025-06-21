@@ -66,11 +66,11 @@ const projects = [
       "/images/Joel-after/6.jpeg",
       "/images/Joel-after/7.jpeg",
       "/images/Joel-after/8.jpeg",
+      "/images/Joel-after/9.jpeg",
       "/images/Joel-after/10.jpeg",
       "/images/Joel-after/11.jpeg",
       "/images/Joel-after/3.jpeg",
-      "/images/Joel-after/4.jpeg",
-      "/images/Joel-after/9.jpeg"
+      "/images/Joel-after/4.jpeg"
     ]
   }
 ];
