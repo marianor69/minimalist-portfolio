@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { projects } from '../src/data';
+import { projects } from '../data';
 
 
 export default function Portfolio() {
