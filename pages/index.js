@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { projects } from "../data";
+import { projects } from "@/data";
+
 
 export default function Portfolio() {
   const [selected, setSelected] = useState(null);
