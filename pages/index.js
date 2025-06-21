@@ -88,17 +88,29 @@ export default function Portfolio() {
           <div>
             <h3 className="text-md font-medium mb-2">Before</h3>
             <div className="grid grid-cols-1 gap-2">
-              {projects[selected].beforeImgs.map((src, i) => (
-                <img key={i} src={src} alt={`Before ${i + 1}`} className="w-full rounded-lg" />
-              ))}
+              {projects[selected].beforeImgs.map((src, i) => {
+                const fileName = src.split('/').pop();
+                return (
+                  <div key={i} className="text-center">
+                    <img src={src} alt={`Before ${i + 1}`} className="w-full rounded-lg" />
+                    <p className="mt-1 text-xs text-gray-600">{fileName}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div>
             <h3 className="text-md font-medium mb-2">After</h3>
             <div className="grid grid-cols-1 gap-2">
-              {projects[selected].afterImgs.map((src, i) => (
-                <img key={i} src={src} alt={`After ${i + 1}`} className="w-full rounded-lg" />
-              ))}
+              {projects[selected].afterImgs.map((src, i) => {
+                const fileName = src.split('/').pop();
+                return (
+                  <div key={i} className="text-center">
+                    <img src={src} alt={`After ${i + 1}`} className="w-full rounded-lg" />
+                    <p className="mt-1 text-xs text-gray-600">{fileName}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
