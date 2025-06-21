@@ -6,16 +6,26 @@ const projects = [
     description: "Complete transformation.",
     beforeImgs: [
       "/images/Caniff-before/1.jpeg",
-      "/images/Caniff-before/2.jpeg",
-      "/images/Caniff-before/3.jpeg",
+
+     
       "/images/Caniff-before/4.jpeg",
+      
       "/images/Caniff-before/5.jpeg",
+      
       "/images/Caniff-before/6.jpeg",
+      
       "/images/Caniff-before/7.jpeg",
+            "/images/Caniff-before/10.jpeg",
+
+       "/images/Caniff-before/2.jpeg",
+      
+      "/images/Caniff-before/3.jpeg",
+      
       "/images/Caniff-before/8.jpeg",
+      
       "/images/Caniff-before/9.jpeg",
-      "/images/Caniff-before/10.jpeg"
-    ],
+      
+    ]
     afterImgs: [
       "/images/Caniff-after/1.jpeg",
       "/images/Caniff-after/2.jpeg",
