@@ -101,7 +101,7 @@ export default function Portfolio() {
   const [selected, setSelected] = useState(0);
 
   return (
-    <main className="max-w-4xl mx-auto p-4">
+    <main className="w-full px-4">
       <h1 className="text-4xl font-bold mb-6 text-center">New Domus Inc Renovation Projects</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
