@@ -5,24 +5,15 @@ const projects = [
     title: "Caniff Ln - CARY, NC",
     description: "On this house we have installed all new hardwood floors, kitchen cabinets, lighting, paint, bathrooms, outdoor patio, landscaping.",
     beforeImgs: [
-      "/images/Caniff-before/1.jpeg",
-
-     
+      "/images/Caniff-before/1.jpeg", 
       "/images/Caniff-before/4.jpeg",
-      
       "/images/Caniff-before/5.jpeg",
-      
       "/images/Caniff-before/6.jpeg",
-      
       "/images/Caniff-before/7.jpeg",
-            "/images/Caniff-before/10.jpeg",
-
+      "/images/Caniff-before/10.jpeg",
        "/images/Caniff-before/2.jpeg",
-      
       "/images/Caniff-before/3.jpeg",
-      
       "/images/Caniff-before/8.jpeg",
-      
       "/images/Caniff-before/9.jpeg"
       
     ],
@@ -111,7 +102,7 @@ export default function Portfolio() {
 
   return (
     <main className="max-w-4xl mx-auto p-4">
-      <h1 className="text-4xl font-bold mb-6 text-center">My Renovation Projects</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center">New Domus Inc Renovation Projects</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, i) => (
