@@ -23,9 +23,9 @@ const projects = [
       
       "/images/Caniff-before/8.jpeg",
       
-      "/images/Caniff-before/9.jpeg",
+      "/images/Caniff-before/9.jpeg"
       
-    ]
+    ],
     afterImgs: [
       "/images/Caniff-after/1.jpeg",
       "/images/Caniff-after/2.jpeg",
