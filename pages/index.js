@@ -2,8 +2,8 @@ import { useState } from 'react';
 
 const projects = [
   {
-    title: "Caniff Renovation",
-    description: "Complete transformation of the Caniff property, including interior layout changes, new flooring, and modern finishes.",
+    title: "Caniff Ln - CARY, NC",
+    description: "Complete transformation.",
     beforeImgs: [
       "/images/Caniff-before/1.jpeg",
       "/images/Caniff-before/2.jpeg",
@@ -37,7 +37,7 @@ const projects = [
     ]
   },
   {
-    title: "Joel Renovation",
+    title: "Joel Ct - CARY, NC",
     description: "Updated kitchen and bathroom layout, lighting, and structural elements at the Joel property with clean, modern design choices.",
     beforeImgs: [
       "/images/Joel-before/1.jpeg",
