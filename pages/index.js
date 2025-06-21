@@ -101,7 +101,7 @@ const projects = [
       "/images/Wyman-after/10.jpeg",
       "/images/Wyman-after/11.jpeg",
       "/images/Wyman-after/12.jpeg",
-      "/images/Joel-after/13.jpeg"
+      "/images/Wyman-after/13.jpeg"
     ]
   }
 ];
