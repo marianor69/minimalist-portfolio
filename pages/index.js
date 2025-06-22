@@ -119,7 +119,7 @@ function ProjectTile({ project, onClick }) {
           {project.title}
         </h3>
         <div style={{
-          color: '#2563eb',
+          color: '#333',
           fontSize: '0.96rem',
           fontWeight: '500',
           marginBottom: '10px',
@@ -139,7 +139,7 @@ function ProjectTile({ project, onClick }) {
             : project.description}
         </p>
         <div style={{
-          color: '#2563eb',
+          color: '#333',
           fontSize: '0.9rem',
           fontWeight: '600',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
@@ -171,7 +171,7 @@ function ProjectDetail({ project, onBack }) {
             style={{
               display: 'flex',
               alignItems: 'center',
-              backgroundColor: '#2563eb',
+              backgroundColor: '#333',
               color: 'white',
               padding: '12px 20px',
               borderRadius: '8px',
@@ -202,7 +202,7 @@ function ProjectDetail({ project, onBack }) {
             {project.title}
           </h1>
           <div style={{
-            color: '#2563eb',
+            color: '#333',
             fontSize: '1.15rem',
             fontWeight: '500',
             marginBottom: '20px',
