@@ -36,7 +36,7 @@ export const projects = [
     ],
   },
  {
-    title: "Hartsfield Dr - RALEIGH, NC",
+    title: "Hartsfield Dr - WAKE FOREST, NC",
     description:
       "Total renovation. Flooring repair. New LVP. Siding. Room. Bathrooms. Kitchen. Oepned up living aread. New bathroom. New lighting. All new appliances. New front and back decks. Landscaping. New septic",
     beforeImgs: [
