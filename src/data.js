@@ -1,6 +1,7 @@
 export const projects = [
   {
-    title: "Powell Dr<br />RALEIGH, NC",
+    title: "Powell Dr",
+    location: "RALEIGH, NC",
     description:
       "Integrated dinning with kitchen. New bathrooms. LVP flooring. Add attic living space. New lighting. All new appliances. New deck",
     beforeImgs: [
@@ -36,7 +37,8 @@ export const projects = [
     ],
   },
   {
-    title: "Hartsfield Dr<br />WAKE FOREST, NC",
+    title: "Hartsfield Dr",
+    location: "WAKE FOREST, NC",
     description:
       "Total renovation. Flooring repair. New LVP. Siding. Room. Bathrooms. Kitchen. Opened up living area. New bathroom. New lighting. All new appliances. New front and back decks. Landscaping. New septic",
     beforeImgs: [
@@ -85,7 +87,8 @@ export const projects = [
     ],
   },
   {
-    title: "Joel Ct<br />CARY, NC",
+    title: "Joel Ct",
+    location: "CARY, NC",
     description:
       "Opened up kitchen. New hardwood flooring. Remodeled bathrooms, landscaping, new lighting. All new appliances.",
     beforeImgs: [
@@ -112,7 +115,8 @@ export const projects = [
     ],
   },
   {
-    title: "Caniff Ln<br />CARY, NC",
+    title: "Caniff Ln",
+    location: "CARY, NC",
     description:
       "On this house we have installed all new hardwood floors, kitchen cabinets, lighting, paint, bathrooms, outdoor patio, landscaping.",
     beforeImgs: [
@@ -149,7 +153,8 @@ export const projects = [
     ],
   },
   {
-    title: "Wyman Pl<br />DURHAM, NC",
+    title: "Wyman Pl",
+    location: "DURHAM, NC",
     description:
       "Integrated kitchen, new door to new deck. New hardwood flooring. Remodeled bathrooms, landscaping, new fence. All new appliances. Encapsulated crawl space.",
     beforeImgs: [
