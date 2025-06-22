@@ -1,30 +1,28 @@
 import { useState } from "react";
 import { projects } from "../src/data";
 
-
-
 export default function Portfolio() {
   const [selected, setSelected] = useState(null);
 
   if (selected === null) {
     // 🏠 MAIN PAGE with all projects shown as image tiles
     return (
-      <main className="w-full px-4">
+      <main className="w-full px-4 py-8">
         <h1 className="text-4xl font-bold mb-6 text-center">New Domus Renovation Projects</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {projects.map((project, i) => (
             <div
               key={i}
               onClick={() => setSelected(i)}
-              className="cursor-pointer border rounded-lg p-4 hover:shadow-lg"
+              className="cursor-pointer border rounded-lg p-2 hover:shadow-lg transition"
             >
               <img
-                src={project.afterImgs[0]} // First AFTER photo as thumbnail
+                src={project.afterImgs[0]}
                 alt={`${project.title} thumbnail`}
-                className="w-full h-48 object-cover rounded-md mb-3"
+                className="w-full h-40 object-cover rounded-md mb-2 cursor-pointer"
               />
-              <h2 className="text-xl font-semibold text-center">{project.title}</h2>
+              <h2 className="text-md font-semibold text-center cursor-pointer">{project.title}</h2>
             </div>
           ))}
         </div>
@@ -36,7 +34,7 @@ export default function Portfolio() {
   const project = projects[selected];
 
   return (
-    <main className="w-full px-4">
+    <main className="w-full px-4 py-8">
       <button
         onClick={() => setSelected(null)}
         className="text-blue-600 underline mb-4 block"
@@ -50,7 +48,7 @@ export default function Portfolio() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <h3 className="text-md font-medium mb-2">Before</h3>
-          <div className="grid grid-cols-1 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {project.beforeImgs.map((src, i) => {
               const fileName = src.split("/").pop();
               return (
@@ -64,7 +62,7 @@ export default function Portfolio() {
         </div>
         <div>
           <h3 className="text-md font-medium mb-2">After</h3>
-          <div className="grid grid-cols-1 gap-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
             {project.afterImgs.map((src, i) => {
               const fileName = src.split("/").pop();
               return (
