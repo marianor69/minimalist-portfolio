@@ -17,18 +17,18 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
-      <div className="max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gray-100 py-8 px-4">
+      <div className="max-w-6xl mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             NDC Home Renovations
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-xl text-gray-600">
             Transform your space with our expert renovation services
           </p>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {projects.map((project, index) => (
             <ProjectTile
               key={index}
@@ -45,40 +45,48 @@ export default function Home() {
 function ProjectTile({ project, onClick }) {
   return (
     <div
-      className="bg-white rounded-xl shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+      className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 border border-gray-200"
       onClick={onClick}
+      style={{ maxWidth: '280px', margin: '0 auto' }}
     >
-      <div className="aspect-w-16 aspect-h-12 relative overflow-hidden">
+      <div className="w-full h-48 overflow-hidden">
         <img
           src={project.afterImgs[0]}
           alt={project.title}
-          className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+          className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+          style={{ 
+            width: '100%', 
+            height: '192px', 
+            objectFit: 'cover' 
+          }}
         />
-        <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-20 transition-all duration-300"></div>
       </div>
       <div className="p-4">
-        <h3 className="font-semibold text-lg text-gray-900 mb-2">
+        <h3 className="font-bold text-lg text-gray-900 mb-2 line-clamp-2">
           {project.title}
         </h3>
-        <p className="text-gray-600 text-sm line-clamp-3">
-          {project.description}
+        <p className="text-gray-600 text-sm leading-relaxed">
+          {project.description.length > 100 
+            ? project.description.substring(0, 100) + '...' 
+            : project.description}
         </p>
+        <div className="mt-3 text-blue-600 text-sm font-semibold">
+          View Project →
+        </div>
       </div>
     </div>
   );
 }
 
 function ProjectDetail({ project, onBack }) {
-  const maxImages = Math.max(project.beforeImgs.length, project.afterImgs.length);
-
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="min-h-screen bg-gray-50 py-6 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header with back button */}
         <div className="flex items-center mb-8">
           <button
             onClick={onBack}
-            className="flex items-center text-blue-600 hover:text-blue-800 transition-colors duration-200 mr-4"
+            className="flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200 shadow-md"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -88,59 +96,69 @@ function ProjectDetail({ project, onBack }) {
         </div>
 
         {/* Project Info */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+        <div className="text-center mb-10">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             {project.title}
           </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
             {project.description}
           </p>
         </div>
 
-        {/* Before/After Headers */}
-        <div className="grid grid-cols-2 gap-8 mb-6">
-          <div className="text-center">
-            <h2 className="text-2xl font-semibold text-gray-900 pb-4 border-b-2 border-red-500">
-              BEFORE
-            </h2>
+        {/* Before/After Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {/* Before Column */}
+          <div>
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-red-600 bg-red-50 py-3 px-6 rounded-lg inline-block">
+                BEFORE
+              </h2>
+            </div>
+            <div className="space-y-4">
+              {project.beforeImgs.map((img, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                  <img
+                    src={img}
+                    alt={`${project.title} - Before ${index + 1}`}
+                    className="w-full h-auto object-contain"
+                    style={{ 
+                      maxHeight: '400px',
+                      width: '100%',
+                      height: 'auto'
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="text-center">
-            <h2 className="text-2xl font-semibold text-gray-900 pb-4 border-b-2 border-green-500">
-              AFTER
-            </h2>
+
+          {/* After Column */}
+          <div>
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-green-600 bg-green-50 py-3 px-6 rounded-lg inline-block">
+                AFTER
+              </h2>
+            </div>
+            <div className="space-y-4">
+              {project.afterImgs.map((img, index) => (
+                <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+                  <img
+                    src={img}
+                    alt={`${project.title} - After ${index + 1}`}
+                    className="w-full h-auto object-contain"
+                    style={{ 
+                      maxHeight: '400px',
+                      width: '100%',
+                      height: 'auto'
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 
-        {/* Before/After Images Grid */}
-        <div className="grid grid-cols-2 gap-8">
-          {/* Before Images Column */}
-          <div className="space-y-6">
-            {project.beforeImgs.map((img, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <img
-                  src={img}
-                  alt={`${project.title} - Before ${index + 1}`}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            ))}
-          </div>
-
-          {/* After Images Column */}
-          <div className="space-y-6">
-            {project.afterImgs.map((img, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-                <img
-                  src={img}
-                  alt={`${project.title} - After ${index + 1}`}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Bottom margin for better spacing */}
+        {/* Bottom spacing */}
         <div className="h-12"></div>
       </div>
     </div>
