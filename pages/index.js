@@ -34,13 +34,15 @@ export default function Home() {
             fontSize: '2.5rem', 
             fontWeight: 'bold', 
             color: '#333', 
-            marginBottom: '15px' 
+            marginBottom: '15px',
+            fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             NDC Home Renovations
           </h1>
           <p style={{ 
             fontSize: '1.1rem', 
-            color: '#666' 
+            color: '#666',
+            fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             Transform your space with our expert renovation services
           </p>
@@ -111,7 +113,8 @@ function ProjectTile({ project, onClick }) {
           fontSize: '1.1rem', 
           color: '#333', 
           marginBottom: '10px',
-          lineHeight: '1.3'
+          lineHeight: '1.3',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.title}
         </h3>
@@ -119,7 +122,8 @@ function ProjectTile({ project, onClick }) {
           color: '#666', 
           fontSize: '0.9rem', 
           lineHeight: '1.4',
-          marginBottom: '15px'
+          marginBottom: '15px',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.description.length > 100 
             ? project.description.substring(0, 100) + '...' 
@@ -128,7 +132,8 @@ function ProjectTile({ project, onClick }) {
         <div style={{ 
           color: '#2563eb', 
           fontSize: '0.9rem', 
-          fontWeight: '600' 
+          fontWeight: '600',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           View Project →
         </div>
@@ -164,7 +169,8 @@ function ProjectDetail({ project, onBack }) {
               border: 'none', 
               cursor: 'pointer',
               fontSize: '1rem',
-              fontWeight: '500'
+              fontWeight: '500',
+              fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
             }}
           >
             <span style={{ marginRight: '8px' }}>←</span>
@@ -181,7 +187,8 @@ function ProjectDetail({ project, onBack }) {
             fontSize: '2.5rem', 
             fontWeight: 'bold', 
             color: '#333', 
-            marginBottom: '20px' 
+            marginBottom: '20px',
+            fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.title}
           </h1>
@@ -190,7 +197,8 @@ function ProjectDetail({ project, onBack }) {
             color: '#666', 
             maxWidth: '800px', 
             margin: '0 auto',
-            lineHeight: '1.6'
+            lineHeight: '1.6',
+            fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.description}
           </p>
@@ -219,7 +227,8 @@ function ProjectDetail({ project, onBack }) {
                 padding: '15px 30px', 
                 borderRadius: '10px',
                 display: 'inline-block',
-                border: '2px solid #dc2626'
+                border: '2px solid #dc2626',
+                fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
               }}>
                 BEFORE
               </h2>
@@ -267,7 +276,8 @@ function ProjectDetail({ project, onBack }) {
                 padding: '15px 30px', 
                 borderRadius: '10px',
                 display: 'inline-block',
-                border: '2px solid #16a34a'
+                border: '2px solid #16a34a',
+                fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
               }}>
                 AFTER
               </h2>
