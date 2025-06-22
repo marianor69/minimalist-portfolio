@@ -5,22 +5,23 @@ export default function Portfolio() {
   const [selected, setSelected] = useState(null);
 
   if (selected === null) {
-    // 🏠 MAIN PAGE
+    // HOME PAGE: Grid of project tiles, 4 per row on desktop
     return (
       <main className="w-full px-4 py-8">
-        <h1 className="text-4xl font-bold mb-6 text-center">New Domus Renovation Projects</h1>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <h1 className="text-4xl font-bold mb-10 text-center">New Domus Renovation Projects</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {projects.map((project, i) => (
             <div
               key={i}
               onClick={() => setSelected(i)}
               className="cursor-pointer border rounded-lg p-2 hover:shadow-lg hover:scale-105 transition-transform"
+              style={{ background: "#fff" }}
             >
               <img
                 src={project.afterImgs[0]}
                 alt={`${project.title} thumbnail`}
-                className="w-full h-36 object-cover rounded-md mb-2"
+                className="w-full h-36 object-cover rounded mb-2 transition-all"
+                style={{ cursor: "pointer" }}
               />
               <h2 className="text-md font-semibold text-center">{project.title}</h2>
             </div>
@@ -30,7 +31,7 @@ export default function Portfolio() {
     );
   }
 
-  // 🛠 PROJECT DETAIL PAGE
+  // DETAIL PAGE: Before/after images in grid, 2 per row on desktop
   const project = projects[selected];
 
   return (
@@ -42,26 +43,28 @@ export default function Portfolio() {
         ← Back to Projects
       </button>
 
-      <h1 className="text-3xl font-bold mb-2 text-center">{project.title}</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">{project.title}</h1>
       <p className="mb-6 text-center text-gray-700">{project.description}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <h3 className="text-lg font-medium mb-2">Before</h3>
+          <h3 className="text-md font-medium mb-2">Before</h3>
           <div className="grid grid-cols-2 gap-2">
             {project.beforeImgs.map((src, i) => (
               <div key={i} className="text-center">
-                <img src={src} alt={`Before ${i + 1}`} className="w-full max-h-64 object-cover rounded-lg" />
+                <img src={src} alt={`Before ${i + 1}`} className="w-full h-44 object-cover rounded-lg mx-auto" />
+                <p className="mt-1 text-xs text-gray-600">{src.split("/").pop()}</p>
               </div>
             ))}
           </div>
         </div>
         <div>
-          <h3 className="text-lg font-medium mb-2">After</h3>
+          <h3 className="text-md font-medium mb-2">After</h3>
           <div className="grid grid-cols-2 gap-2">
             {project.afterImgs.map((src, i) => (
               <div key={i} className="text-center">
-                <img src={src} alt={`After ${i + 1}`} className="w-full max-h-64 object-cover rounded-lg" />
+                <img src={src} alt={`After ${i + 1}`} className="w-full h-44 object-cover rounded-lg mx-auto" />
+                <p className="mt-1 text-xs text-gray-600">{src.split("/").pop()}</p>
               </div>
             ))}
           </div>
