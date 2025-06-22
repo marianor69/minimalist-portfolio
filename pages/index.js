@@ -128,7 +128,7 @@ function ProjectTile({ project, onClick }) {
           {project.location}
         </div>
         <p style={{
-          color: '#666',
+          color: '#2563eb',
           fontSize: '0.9rem',
           lineHeight: '1.4',
           marginBottom: '15px',
@@ -212,7 +212,7 @@ function ProjectDetail({ project, onBack }) {
           </div>
           <p style={{
             fontSize: '1.1rem',
-            color: '#666',
+            color: '#2563eb',
             maxWidth: '800px',
             margin: '0 auto',
             lineHeight: '1.6',
