@@ -4,8 +4,8 @@ import { projects } from "../src/data";
 export default function Portfolio() {
   const [selected, setSelected] = useState(null);
 
+  // HOMEPAGE: Projects grid as nice clickable tiles
   if (selected === null) {
-    // HOMEPAGE: Project Tiles
     return (
       <main className="w-full px-4 py-8">
         <h1 className="text-4xl font-bold mb-8 text-center">New Domus Renovation Projects</h1>
@@ -14,19 +14,18 @@ export default function Portfolio() {
             <div
               key={i}
               onClick={() => setSelected(i)}
-              className="border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center cursor-pointer"
-              style={{ minHeight: 260, cursor: "pointer" }} // force hand cursor
+              className="border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center group"
             >
               <img
                 src={project.afterImgs[0]}
                 alt={`${project.title} thumbnail`}
-                className="rounded-t-xl mb-3"
+                className="rounded-t-xl mb-3 mt-3"
                 style={{
                   width: "210px",
                   height: "140px",
                   objectFit: "cover",
-                  display: "block",
-                  marginTop: 10
+                  cursor: "pointer",
+                  transition: "box-shadow 0.15s"
                 }}
               />
               <h2 className="text-lg font-semibold text-center mb-4">{project.title}</h2>
@@ -37,7 +36,7 @@ export default function Portfolio() {
     );
   }
 
-  // PROJECT DETAILS: Before/After images grid
+  // PROJECT DETAILS: Before/After grid
   const project = projects[selected];
 
   return (
@@ -56,7 +55,7 @@ export default function Portfolio() {
         {/* Before Images */}
         <div>
           <h3 className="text-md font-medium mb-2 text-center">Before</h3>
-          <div className="grid grid-cols-2 gap-3 justify-items-center">
+          <div className="grid grid-cols-2 gap-3">
             {project.beforeImgs.map((src, i) => (
               <div key={i} className="text-center">
                 <img
@@ -80,7 +79,7 @@ export default function Portfolio() {
         {/* After Images */}
         <div>
           <h3 className="text-md font-medium mb-2 text-center">After</h3>
-          <div className="grid grid-cols-2 gap-3 justify-items-center">
+          <div className="grid grid-cols-2 gap-3">
             {project.afterImgs.map((src, i) => (
               <div key={i} className="text-center">
                 <img
