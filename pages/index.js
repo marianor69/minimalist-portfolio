@@ -14,18 +14,17 @@ export default function Portfolio() {
             <div
               key={i}
               onClick={() => setSelected(i)}
-              className="border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center group"
-              style={{ cursor: "pointer" }}
+              className="border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center mx-auto w-[420px] cursor-pointer"
+              style={{ maxWidth: "420px" }}
             >
               <img
                 src={project.afterImgs[0]}
                 alt={`${project.title} thumbnail`}
                 className="rounded-t-xl mb-3 mt-3"
                 style={{
-                  width: "420px", // doubled from 210px
-                  height: "280px", // doubled from 140px
+                  width: "420px",
+                  height: "280px",
                   objectFit: "cover",
-                  transition: "box-shadow 0.15s"
                 }}
               />
               <h2 className="text-lg font-semibold text-center mb-4">{project.title}</h2>
@@ -55,7 +54,7 @@ export default function Portfolio() {
         {/* BEFORE images */}
         <div>
           <h3 className="text-md font-medium mb-3 text-center">Before</h3>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 justify-items-center">
             {project.beforeImgs.map((src, i) => (
               <div key={i} className="flex flex-col items-center">
                 <img
@@ -63,8 +62,8 @@ export default function Portfolio() {
                   alt={`Before ${i + 1}`}
                   className="rounded-lg"
                   style={{
-                    width: "290px", // doubled from 145px
-                    height: "200px", // doubled from 100px
+                    width: "290px",
+                    height: "200px",
                     objectFit: "cover",
                     display: "block",
                   }}
@@ -77,7 +76,7 @@ export default function Portfolio() {
         {/* AFTER images */}
         <div>
           <h3 className="text-md font-medium mb-3 text-center">After</h3>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 justify-items-center">
             {project.afterImgs.map((src, i) => (
               <div key={i} className="flex flex-col items-center">
                 <img
