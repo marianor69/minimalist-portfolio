@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { projects } from '../data/data.js';
+import { projects } from '../src/data.js';
 
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState(null);
