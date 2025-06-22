@@ -7,23 +7,29 @@ export default function Portfolio() {
   if (selected === null) {
     // HOMEPAGE: Project Tiles
     return (
-      <main className="w-full px-4 py-6">
+      <main className="w-full px-4 py-8">
         <h1 className="text-4xl font-bold mb-8 text-center">New Domus Renovation Projects</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {projects.map((project, i) => (
             <div
               key={i}
               onClick={() => setSelected(i)}
-              className="cursor-pointer border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center"
-              style={{ minHeight: 220 }}
+              className="border rounded-xl shadow hover:shadow-2xl hover:scale-105 transition-all duration-150 bg-white flex flex-col items-center cursor-pointer"
+              style={{ minHeight: 260, cursor: "pointer" }} // force hand cursor
             >
               <img
                 src={project.afterImgs[0]}
                 alt={`${project.title} thumbnail`}
-                className="w-[220px] h-[160px] object-cover rounded-t-xl"
-                style={{ marginTop: 10 }}
+                className="rounded-t-xl mb-3"
+                style={{
+                  width: "210px",
+                  height: "140px",
+                  objectFit: "cover",
+                  display: "block",
+                  marginTop: 10
+                }}
               />
-              <h2 className="text-lg font-semibold text-center mt-3 mb-4">{project.title}</h2>
+              <h2 className="text-lg font-semibold text-center mb-4">{project.title}</h2>
             </div>
           ))}
         </div>
@@ -31,11 +37,11 @@ export default function Portfolio() {
     );
   }
 
-  // PROJECT DETAILS: Before/After images side by side, small thumbs
+  // PROJECT DETAILS: Before/After images grid
   const project = projects[selected];
 
   return (
-    <main className="w-full max-w-6xl mx-auto px-4 py-6">
+    <main className="w-full max-w-6xl mx-auto px-4 py-8">
       <button
         onClick={() => setSelected(null)}
         className="text-blue-600 underline mb-4 block text-left"
@@ -50,13 +56,21 @@ export default function Portfolio() {
         {/* Before Images */}
         <div>
           <h3 className="text-md font-medium mb-2 text-center">Before</h3>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-3 justify-items-center">
             {project.beforeImgs.map((src, i) => (
               <div key={i} className="text-center">
                 <img
                   src={src}
                   alt={`Before ${i + 1}`}
-                  className="w-[160px] h-[110px] object-cover rounded-lg mx-auto"
+                  style={{
+                    width: "145px",
+                    height: "100px",
+                    objectFit: "cover",
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    borderRadius: "0.5rem"
+                  }}
                 />
                 <p className="mt-1 text-xs text-gray-600">{src.split("/").pop()}</p>
               </div>
@@ -66,13 +80,21 @@ export default function Portfolio() {
         {/* After Images */}
         <div>
           <h3 className="text-md font-medium mb-2 text-center">After</h3>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-3 justify-items-center">
             {project.afterImgs.map((src, i) => (
               <div key={i} className="text-center">
                 <img
                   src={src}
                   alt={`After ${i + 1}`}
-                  className="w-[160px] h-[110px] object-cover rounded-lg mx-auto"
+                  style={{
+                    width: "145px",
+                    height: "100px",
+                    objectFit: "cover",
+                    display: "block",
+                    marginLeft: "auto",
+                    marginRight: "auto",
+                    borderRadius: "0.5rem"
+                  }}
                 />
                 <p className="mt-1 text-xs text-gray-600">{src.split("/").pop()}</p>
               </div>
