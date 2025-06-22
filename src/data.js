@@ -116,7 +116,6 @@ export const projects = [
     description:
       "On this house we have installed all new hardwood floors, kitchen cabinets, lighting, paint, bathrooms, outdoor patio, landscaping.",
     beforeImgs: [
-      "/images/Caniff-before/0.jpeg",
       "/images/Caniff-before/1.jpeg",
       "/images/Caniff-before/4.jpeg",
       "/images/Caniff-before/5.jpeg",
@@ -129,6 +128,7 @@ export const projects = [
       "/images/Caniff-before/9.jpeg",
     ],
     afterImgs: [
+      "/images/Caniff-after/0.jpeg",
       "/images/Caniff-after/1.jpeg",
       "/images/Caniff-after/2.jpeg",
       "/images/Caniff-after/3.jpeg",
