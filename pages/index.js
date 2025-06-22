@@ -49,7 +49,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-2 gap-2">
             {project.beforeImgs.map((src, i) => (
               <div key={i} className="text-center">
-                <img src={src} alt={`Before ${i + 1}`} className="w-full rounded" />
+                <img
+                  src={src}
+                  alt={`Before ${i + 1}`}
+                  className="w-full h-48 object-cover rounded"
+                />
               </div>
             ))}
           </div>
@@ -59,7 +63,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-2 gap-2">
             {project.afterImgs.map((src, i) => (
               <div key={i} className="text-center">
-                <img src={src} alt={`After ${i + 1}`} className="w-full rounded" />
+                <img
+                  src={src}
+                  alt={`After ${i + 1}`}
+                  className="w-full h-48 object-cover rounded"
+                />
               </div>
             ))}
           </div>
