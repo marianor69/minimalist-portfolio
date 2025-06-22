@@ -51,6 +51,7 @@ export const projects = [
       "/images/Hartsfield-before/10.jpeg",
       "/images/Hartsfield-before/11.jpeg",
       "/images/Hartsfield-before/12.jpeg",
+      "/images/Hartsfield-before/13.jpeg",
       "/images/Hartsfield-before/14.jpeg",
       "/images/Hartsfield-before/15.jpeg",
       "/images/Hartsfield-before/16.jpeg",
@@ -58,6 +59,7 @@ export const projects = [
       "/images/Hartsfield-before/18.jpeg",
       "/images/Hartsfield-before/19.jpeg",
       "/images/Hartsfield-before/20.jpeg",
+      "/images/Hartsfield-before/21.jpeg",
     ],
     afterImgs: [
       "/images/Hartsfield-after/0.jpeg",
