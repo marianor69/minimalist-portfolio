@@ -272,6 +272,15 @@ function ProjectDetail({ project, onBack }) {
                       borderRadius: '5px'
                     }}
                   />
+                  <p style={{ 
+                    textAlign: 'center', 
+                    marginTop: '10px', 
+                    fontSize: '0.9rem', 
+                    color: '#666',
+                    fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
+                  }}>
+                    {img.split('/').pop()}
+                  </p>
                 </div>
               ))}
             </div>
@@ -321,6 +330,15 @@ function ProjectDetail({ project, onBack }) {
                       borderRadius: '5px'
                     }}
                   />
+                  <p style={{ 
+                    textAlign: 'center', 
+                    marginTop: '10px', 
+                    fontSize: '0.9rem', 
+                    color: '#666',
+                    fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
+                  }}>
+                    {img.split('/').pop()}
+                  </p>
                 </div>
               ))}
             </div>
