@@ -18,8 +18,8 @@ export const projects = [
     ],
     afterImgs: [
       "/images/Powell-after/0.jpeg",
-      "/images/Powell-after/1.jpg",
-      "/images/Powell-after/2.jpg",
+      //"/images/Powell-after/1.jpg",
+      //"/images/Powell-after/2.jpg",
       "/images/Powell-after/3.jpg",
       "/images/Powell-after/4.jpg",
       "/images/Powell-after/5.jpg",
