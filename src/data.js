@@ -1,5 +1,43 @@
 export const projects = [
   {
+    title: "Pine Mountain Dr",
+    location: "HOUSTON, NC",
+    description:
+      "Flooded, back to the bones renovation. New bathrooms and kitchen. All new flooring, carpets and tiles. Insulation, siding, roof. New deck, electric work",
+    beforeImgs: [
+"/images/Pine Mountain-before/IMG_3196.jpeg",
+"/images/Pine Mountain-before/IMG_3204.jpeg",
+"/images/Pine Mountain-before/IMG_3205.jpeg",
+"/images/Pine Mountain-before/IMG_3206.jpeg",
+"/images/Pine Mountain-before/IMG_3207.jpeg",
+"/images/Pine Mountain-before/IMG_3208.jpeg",
+"/images/Pine Mountain-before/IMG_3209.jpeg",
+"/images/Pine Mountain-before/IMG_3210.jpeg",
+"/images/Pine Mountain-before/IMG_3211.jpeg",
+"/images/Pine Mountain-before/IMG_3212.jpeg",
+"/images/Pine Mountain-before/IMG_3213.jpeg",
+"/images/Pine Mountain-before/IMG_3214.jpeg",
+"/images/Pine Mountain-before/IMG_3215.jpeg",
+"/images/Pine Mountain-before/IMG_3216.jpeg",
+"/images/Pine Mountain-before/IMG_3217.jpeg",
+"/images/Pine Mountain-before/IMG_3218.jpeg",
+"/images/Pine Mountain-before/IMG_3219.jpeg",
+"/images/Pine Mountain-before/IMG_3220.jpeg",
+"/images/Pine Mountain-before/IMG_3221.jpeg",
+"/images/Pine Mountain-before/IMG_3224.jpeg",
+
+],
+    afterImgs: [
+"/images/Pine Mountain-after/1.jpeg",
+"/images/Pine Mountain-after/20.jpeg",
+"/images/Pine Mountain-after/30.jpeg",
+"/images/Pine Mountain-after/40.jpeg",
+"/images/Pine Mountain-after/45.jpeg",
+"/images/Pine Mountain-after/50.jpeg",
+"/images/Pine Mountain-after/60.jpeg",
+
+    ],
+  },{
     title: "Welcome Dr",
     location: "DURHAM, NC",
     description:
