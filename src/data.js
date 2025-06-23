@@ -5,18 +5,20 @@ export const projects = [
     description:
       "Total renovation in this ranch house. New bathrooms and kitchen. All new hardwood floors. Add attic living space. New lighting. All new appliances. New deck",
     beforeImgs: [
+"/images/Welcome-before/1.jpeg",
+"/images/Welcome-before/2.jpeg",
+"/images/Welcome-before/3.jpeg",
+
+
 "/images/Welcome-before/back.jpeg",
 "/images/Welcome-before/basement.jpeg",
 "/images/Welcome-before/bath 0.jpeg",
 "/images/Welcome-before/bath 1.jpeg",
 "/images/Welcome-before/bath.jpeg",
-"/images/Welcome-before/dining.jpeg",
 "/images/Welcome-before/entrance.jpeg",
 "/images/Welcome-before/kitchen 0.jpeg",
 "/images/Welcome-before/kitchen.jpeg",
-"/images/Welcome-before/living.jpeg",
 "/images/Welcome-before/outdoor.jpeg",
-"/images/Welcome-before/stairs.jpeg",
 "/images/Welcome-before/storage.jpeg",    ],
     afterImgs: [
       "/images/Welcome-after/0.jpg",
