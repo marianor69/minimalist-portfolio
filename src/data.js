@@ -3,7 +3,7 @@ export const projects = [
     title: "Pine Mountain Dr",
     location: "HOUSTON, NC",
     description:
-      "Flooded, back to the bones renovation. New bathrooms and kitchen. All new flooring, carpets and tiles. Insulation, siding, roof. New deck, electric work",
+      "Flooded house, back to the bones renovation. New bathrooms and kitchen. All new flooring, walls, plumbing, carpets and tiles. Insulation, siding, roof. New deck, electric work",
     beforeImgs: [
 "/images/Pine Mountain-before/IMG_3196.jpeg",
 "/images/Pine Mountain-before/IMG_3204.jpeg",
@@ -32,9 +32,35 @@ export const projects = [
 "/images/Pine Mountain-after/20.jpeg",
 "/images/Pine Mountain-after/30.jpeg",
 "/images/Pine Mountain-after/40.jpeg",
-"/images/Pine Mountain-after/45.jpeg",
+//"/images/Pine Mountain-after/45.jpeg",
 "/images/Pine Mountain-after/50.jpeg",
 "/images/Pine Mountain-after/60.jpeg",
+
+    ],
+  }{
+    title: "Blanca Springs Ct",
+    location: "HOUSTON, NC",
+    description:
+      "Flooded house, full renovation. New sheetrock, floors, carpets, cabinets, vanities, paint",
+    beforeImgs: [
+"/images/Blanca Springs-before/IMG_4039.jpeg",
+"/images/Blanca Springs-before/IMG_4040.jpeg",
+"/images/Blanca Springs-before/IMG_4042.jpeg",
+"/images/Blanca Springs-before/IMG_4043.jpeg",
+"/images/Blanca Springs-before/IMG_4044.jpeg",
+"/images/Blanca Springs-before/IMG_4046.jpeg",
+"/images/Blanca Springs-before/IMG_4053.jpeg",
+"/images/Blanca Springs-before/IMG_4054.jpeg",
+"/images/Blanca Springs-before/IMG_4058.jpeg",
+"/images/Blanca Springs-before/IMG_4061.jpeg",
+
+],
+    afterImgs: [
+"/images/Blanca Springs-after/img-1.jpeg",
+"/images/Blanca Springs-after/img-4.jpeg",
+"/images/Blanca Springs-after/img-6.jpeg",
+"/images/Blanca Springs-after/img-9.jpeg",
+
 
     ],
   },{
