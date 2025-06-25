@@ -157,7 +157,6 @@ export const projects = [
 "/images/Carlisle-before/IMG_4270.jpeg",
 "/images/Carlisle-before/IMG_4292.jpeg",
 "/images/Carlisle-before/IMG_4295.jpeg",
-
             
     ],
     afterImgs: [
@@ -172,6 +171,24 @@ export const projects = [
 "/images/Carlisle-after/8.jpg",
 "/images/Carlisle-after/20.jpg",
 "/images/Carlisle-after/50.jpg",
+    ],
+  },{
+    title: "Carlisle St",
+    location: "RALEIGH, NC",
+    description:
+      "New finished attic with full bathroom and 3rd car garage.",
+    beforeImgs: [
+      "/images/Crafton-before/1.jpeg",
+"/images/Crafton-before/2.jpeg",
+"/images/Crafton-before/3.jpeg",
+"/images/Crafton-before/4.jpeg",
+"/images/Crafton-before/5.jpeg",
+"/images/Crafton-before/6.jpeg",
+
+    ],
+    afterImgs: [
+
+"/images/Crafton-after/0.jpg",
     ],
   },
   {
