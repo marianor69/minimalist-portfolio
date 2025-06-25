@@ -150,6 +150,18 @@ export const projects = [
     description:
       "New floors, new paint, redesigned layout. New kitchen, bathrooms and laundry. Hardwood flooring. Added a new bedroom and office space.",
     beforeImgs: [
+      "/images/Carlisle-before/2410509-4.jpeg",
+"/images/Carlisle-before/2410509-5.jpeg",
+"/images/Carlisle-before/2410509-6.jpeg",
+"/images/Carlisle-before/IMG_4259.jpeg",
+"/images/Carlisle-before/IMG_4270.jpeg",
+"/images/Carlisle-before/IMG_4292.jpeg",
+"/images/Carlisle-before/IMG_4295.jpeg",
+
+            
+    ],
+    afterImgs: [
+
 "/images/Carlisle-after/0.jpg",
 "/images/Carlisle-after/1.jpg",
 "/images/Carlisle-after/5.jpg",
@@ -160,16 +172,6 @@ export const projects = [
 "/images/Carlisle-after/8.jpg",
 "/images/Carlisle-after/20.jpg",
 "/images/Carlisle-after/50.jpg",
-            
-    ],
-    afterImgs: [
-      "/images/Carlisle-before/2410509-4.jpeg",
-"/images/Carlisle-before/2410509-5.jpeg",
-"/images/Carlisle-before/2410509-6.jpeg",
-"/images/Carlisle-before/IMG_4259.jpeg",
-"/images/Carlisle-before/IMG_4270.jpeg",
-"/images/Carlisle-before/IMG_4292.jpeg",
-"/images/Carlisle-before/IMG_4295.jpeg",
     ],
   },
   {
