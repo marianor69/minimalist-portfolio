@@ -37,7 +37,7 @@ export const projects = [
 "/images/Pine Mountain-after/60.jpeg",
 
     ],
-  }{
+  },{
     title: "Blanca Springs Ct",
     location: "HOUSTON, NC",
     description:
@@ -143,6 +143,20 @@ export const projects = [
       "/images/Powell-after/14.jpg",
       //"/images/Powell-after/15.jpg",
       "/images/Powell-after/16.jpeg",
+    ],
+  },{
+    title: "Carlisle St",
+    location: "RALEIGH, NC",
+    description:
+      "New floors, new paint, redesigned layout. New kitchen, bathrooms and laundry. Hardwood flooring. Added a new bedroom and office space.",
+    beforeImgs: [
+      "/images/Carlisle-before/1.jpeg",
+      
+      
+    ],
+    afterImgs: [
+      "/images/Carlisle-after/0.jpeg",
+      
     ],
   },
   {
