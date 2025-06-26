@@ -193,7 +193,7 @@ export const projects = [
     ],
     afterImgs: [
 "/images/Crafton Park-after/IMG_1236.jpeg",
-"/images/Crafton Park-after/0.jpeg",
+//"/images/Crafton Park-after/0.jpeg",
 "/images/Crafton Park-after/IMG_5441.jpeg",    ],
   },
   {
@@ -389,7 +389,9 @@ export const projects = [
 "/images/New Hope Church-before/f161cdff3842bd353615774746437d5c-cc_ft_1536.webp",
     ],
     afterImgs: [
-      "/images/New Hope Church-after/20240822001622768932000000-o.jpeg",
-    ],
+      
+        
+    "/images/New Hope Church-after/20240822001622768932000000-o.jpeg",
+],
   },
 ];
