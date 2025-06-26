@@ -391,7 +391,7 @@ export const projects = [
     afterImgs: [
       
         
-    "/images/New Hope Church-after/20240822001622768932000000-o.jpeg",
+    "/images/New Hope Church-after/1.jpeg",
 ],
   },
 ];
