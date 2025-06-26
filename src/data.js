@@ -392,8 +392,6 @@ export const projects = [
 "/images/New Hope Church-before/f161cdff3842bd353615774746437d5c-cc_ft_1536.webp",
     ],
     afterImgs: [
-      
-        
     "/images/New Hope Church-after/1.jpeg",
 ],
   },
