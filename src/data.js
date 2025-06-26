@@ -178,18 +178,24 @@ export const projects = [
     description:
       "New finished attic with full bathroom and 3rd car garage.",
     beforeImgs: [
-      "/images/Crafton-before/1.jpeg",
+      "/images/Crafton Park-before/1.jpeg",
 "/images/Crafton Park-before/2.jpeg",
 "/images/Crafton Park-before/3.jpeg",
 "/images/Crafton Park-before/4.jpeg",
 "/images/Crafton Park-before/5.jpeg",
 "/images/Crafton Park-before/6.jpeg",
+"/images/Crafton Park-before/IMG_0374.jpeg",
+"/images/Crafton Park-before/IMG_0380.jpeg",
+"/images/Crafton Park-before/IMG_0398.jpeg",
+"/images/Crafton Park-before/IMG_0444.jpeg",
+"/images/Crafton Park-before/IMG_0466.jpeg",
 
     ],
     afterImgs: [
 
-"/images/Crafton Park-after/0.jpg",
-    ],
+"/images/Crafton Park-after/0.jpeg",
+"/images/Crafton Park-after/IMG_1236.jpeg",
+"/images/Crafton Park-after/IMG_5441.jpeg",    ],
   },
   {
     title: "Hartsfield Dr",
