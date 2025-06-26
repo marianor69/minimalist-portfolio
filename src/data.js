@@ -192,9 +192,8 @@ export const projects = [
 
     ],
     afterImgs: [
-
-"/images/Crafton Park-after/0.jpeg",
 "/images/Crafton Park-after/IMG_1236.jpeg",
+"/images/Crafton Park-after/0.jpeg",
 "/images/Crafton Park-after/IMG_5441.jpeg",    ],
   },
   {
