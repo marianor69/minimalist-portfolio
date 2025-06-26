@@ -350,10 +350,24 @@ export const projects = [
     description:
       "Full rehab. New bathrooms, bedrooms, closets. Change of layout. New kitchen. New laundry. Encapsulated crawl space. New appliances",
     beforeImgs: [
-      "/images/Wyman-before/1.jpeg",
+      "/images/Ellyn-before/20240822001628691770000000-o.jpeg",
+"/images/Ellyn-before/20240822001642034293000000-o.jpeg",
+"/images/Ellyn-before/20240822001645808267000000-o.jpeg",
+"/images/Ellyn-before/20240822001647438909000000-o.jpeg",
+"/images/Ellyn-before/20240822001655945758000000-o.jpeg",
+"/images/Ellyn-before/20240822001659932766000000-o.jpeg",
+"/images/Ellyn-before/20240822001703147818000000-o.jpeg",
+"/images/Ellyn-before/20240822001704600073000000-o.jpeg",
+"/images/Ellyn-before/20240822001705814343000000-o.jpeg",
+"/images/Ellyn-before/20240822001707361833000000-o.jpeg",
+"/images/Ellyn-before/20240822001710350232000000-o.jpeg",
+"/images/Ellyn-before/20240822001711930339000000-o.jpeg",
+"/images/Ellyn-before/20240822001715565165000000-o.jpeg",
+"/images/Ellyn-before/20240822001716986270000000-o.jpeg",
+"/images/Ellyn-before/20240822001718609158000000-o.jpeg",
     ],
     afterImgs: [
-      "/images/Wyman-after/1.jpeg",
+      "/images/Ellynn-after/20240822001622768932000000-o.jpeg",
     ],
   },
 ];
