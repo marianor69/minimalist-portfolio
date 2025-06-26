@@ -173,22 +173,22 @@ export const projects = [
 "/images/Carlisle-after/50.jpg",
     ],
   },{
-    title: "Carlisle St",
-    location: "RALEIGH, NC",
+    title: "Crafton Park Ln",
+    location: "CARY, NC",
     description:
       "New finished attic with full bathroom and 3rd car garage.",
     beforeImgs: [
       "/images/Crafton-before/1.jpeg",
-"/images/Crafton-before/2.jpeg",
-"/images/Crafton-before/3.jpeg",
-"/images/Crafton-before/4.jpeg",
-"/images/Crafton-before/5.jpeg",
-"/images/Crafton-before/6.jpeg",
+"/images/Crafton Park-before/2.jpeg",
+"/images/Crafton Park-before/3.jpeg",
+"/images/Crafton Park-before/4.jpeg",
+"/images/Crafton Park-before/5.jpeg",
+"/images/Crafton Park-before/6.jpeg",
 
     ],
     afterImgs: [
 
-"/images/Crafton-after/0.jpg",
+"/images/Crafton Park-after/0.jpg",
     ],
   },
   {
@@ -338,6 +338,17 @@ export const projects = [
       "/images/Wyman-after/11.jpeg",
       "/images/Wyman-after/12.jpeg",
       //"/images/Wyman-after/13.jpeg",
+    ],
+  },{
+    title: "Ellynn Dr",
+    location: "CARY, NC",
+    description:
+      "Full rehab. New bathrooms, bedrooms, closets. Change of layout. New kitchen. New laundry. Encapsulated crawl space. New appliances",
+    beforeImgs: [
+      "/images/Wyman-before/1.jpeg",
+    ],
+    afterImgs: [
+      "/images/Wyman-after/1.jpeg",
     ],
   },
 ];
