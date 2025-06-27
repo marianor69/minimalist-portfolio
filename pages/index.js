@@ -146,7 +146,7 @@ function ProjectTile({ project, onClick }) {
   fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
   textAlign: 'right'
 }}>
-  View Project →
+  View →
 </div>
 
 
