@@ -140,11 +140,11 @@ function ProjectTile({ project, onClick }) {
         </div>
         <div style={{
           color: '#333',
-          fontSize: '0.9rem',
+          fontSize: '0.7rem',
           fontWeight: '600',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
-          View Project →
+         View Project →
         </div>
       </div>
     </div>
