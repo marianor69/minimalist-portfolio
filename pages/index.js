@@ -138,14 +138,18 @@ function ProjectTile({ project, onClick }) {
         }}>
           {project.tagline}
         </div>
+        
         <div style={{
-          color: '#333',
-          fontSize: '0.8rem',
-          fontWeight: '600',
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
-        }}>
-         View →
-        </div>
+  color: '#333',
+  fontSize: '0.8rem',
+  fontWeight: '600',
+  fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+  textAlign: 'right'
+}}>
+  View Project →
+</div>
+
+
       </div>
     </div>
   );
