@@ -106,13 +106,14 @@ function ProjectTile({ project, onClick }) {
         />
       </div>
       <div style={{
-        padding: '20px'
+        padding: '10px' // Halved from 20px to 10px for less space!
       }}>
         <h3 style={{
           fontWeight: 'bold',
           fontSize: '1.1rem',
           color: '#333',
-          marginBottom: '5px',
+          marginTop: '0',
+          marginBottom: '5px', // Halved from 10px to 5px
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
@@ -120,17 +121,18 @@ function ProjectTile({ project, onClick }) {
         </h3>
         <div style={{
           color: '#333',
-          fontSize: '0.98rem',
-          marginBottom: '16px', // More space under location!
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+          fontSize: '0.96rem',
+          fontWeight: '500',
+          marginBottom: '15px',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.location}
         </div>
         <div style={{
-          color: '#444',
+          color: '#333',
           fontSize: '0.95rem',
-          marginBottom: '13px',
           fontWeight: 'normal',
+          marginBottom: '15px',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.tagline}
@@ -200,18 +202,18 @@ function ProjectDetail({ project, onBack }) {
           </h1>
           <div style={{
             color: '#333',
-            fontSize: '1.13rem',
-            fontWeight: 'normal',
-            marginBottom: '22px', // more space under location!
+            fontSize: '1.15rem',
+            fontWeight: '500',
+            marginBottom: '15px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.location}
           </div>
           <div style={{
-            color: '#444',
-            fontSize: '1.08rem',
+            color: '#333',
+            fontSize: '1rem',
             fontWeight: 'normal',
-            marginBottom: '18px',
+            marginBottom: '30px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.tagline}
@@ -280,7 +282,7 @@ function ProjectDetail({ project, onBack }) {
                   />
                   <p style={{
                     textAlign: 'center',
-                    marginTop: '5px',
+                    marginTop: '10px',
                     fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
@@ -338,7 +340,7 @@ function ProjectDetail({ project, onBack }) {
                   />
                   <p style={{
                     textAlign: 'center',
-                    marginTop: '5px',
+                    marginTop: '10px',
                     fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
