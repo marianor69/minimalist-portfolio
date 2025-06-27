@@ -111,7 +111,7 @@ function ProjectTile({ project, onClick }) {
       }}>
         <h3 style={{
           fontWeight: 'bold',
-          fontSize: '1.1rem',
+          fontSize: '1rem',
           color: '#333',
           marginTop: '0',
           marginBottom: '5px',
@@ -122,7 +122,7 @@ function ProjectTile({ project, onClick }) {
         </h3>
         <div style={{
           color: '#333',
-          fontSize: '0.96rem',
+          fontSize: '0.9rem',
           fontWeight: '500',
           marginBottom: '15px',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
@@ -140,7 +140,7 @@ function ProjectTile({ project, onClick }) {
         </div>
         <div style={{
           color: '#333',
-          fontSize: '0.7rem',
+          fontSize: '0.8rem',
           fontWeight: '600',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
