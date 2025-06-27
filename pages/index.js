@@ -4,8 +4,13 @@ import { projects } from '../src/data.js';
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const handleProjectClick = (project) => setSelectedProject(project);
-  const handleBackClick = () => setSelectedProject(null);
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+  };
+
+  const handleBackClick = () => {
+    setSelectedProject(null);
+  };
 
   if (selectedProject) {
     return <ProjectDetail project={selectedProject} onBack={handleBackClick} />;
@@ -100,7 +105,9 @@ function ProjectTile({ project, onClick }) {
           }}
         />
       </div>
-      <div style={{ padding: '20px' }}>
+      <div style={{
+        padding: '20px'
+      }}>
         <h3 style={{
           fontWeight: 'bold',
           fontSize: '1.1rem',
@@ -114,7 +121,7 @@ function ProjectTile({ project, onClick }) {
         <div style={{
           color: '#333',
           fontSize: '0.98rem',
-          marginBottom: '2px',
+          marginBottom: '16px', // More space under location!
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
         }}>
           {project.location}
@@ -186,7 +193,7 @@ function ProjectDetail({ project, onBack }) {
             fontSize: '2.5rem',
             fontWeight: 'bold',
             color: '#333',
-            marginBottom: '7px',
+            marginBottom: '5px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.title}
@@ -195,7 +202,7 @@ function ProjectDetail({ project, onBack }) {
             color: '#333',
             fontSize: '1.13rem',
             fontWeight: 'normal',
-            marginBottom: '7px',
+            marginBottom: '22px', // more space under location!
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.location}
