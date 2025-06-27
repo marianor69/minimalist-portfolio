@@ -37,14 +37,14 @@ export default function Home() {
             marginBottom: '15px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
-            NDC Home Renovations
+            New Domus Inc. Home Renovations
           </h1>
           <p style={{
             fontSize: '1.1rem',
             color: '#666',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
-            Transform your space with our expert renovation services
+            Transforming spaces with our expert renovation services
           </p>
         </header>
 
@@ -106,14 +106,15 @@ function ProjectTile({ project, onClick }) {
         />
       </div>
       <div style={{
-        padding: '20px',
-        textAlign: 'center'
+        padding: '10px',
+        textAlign: 'center' // This line centers the content
       }}>
         <h3 style={{
           fontWeight: 'bold',
-          fontSize: '1.1rem',
+          fontSize: '1rem',
           color: '#333',
-          marginBottom: '6px', // tighter space!
+          marginTop: '0',
+          marginBottom: '5px',
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
@@ -121,31 +122,34 @@ function ProjectTile({ project, onClick }) {
         </h3>
         <div style={{
           color: '#333',
-          fontSize: '0.96rem',
+          fontSize: '0.9rem',
           fontWeight: '500',
-          marginBottom: '10px',
+          marginBottom: '15px',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.location}
         </div>
         <div style={{
           color: '#333',
-          fontSize: '0.92rem',
+          fontSize: '0.95rem',
           fontWeight: 'normal',
           marginBottom: '15px',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.tagline}
         </div>
+        
         <div style={{
-          color: '#333',
-          fontSize: '0.8rem',
-          fontWeight: '600',
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
-          textAlign: 'right'
-        }}>
-          View →
-        </div>
+  color: '#333',
+  fontSize: '0.8rem',
+  fontWeight: '600',
+  fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+  textAlign: 'right'
+}}>
+  View →
+</div>
+
+
       </div>
     </div>
   );
@@ -196,7 +200,7 @@ function ProjectDetail({ project, onBack }) {
             fontSize: '2.5rem',
             fontWeight: 'bold',
             color: '#333',
-            marginBottom: '10px',
+            marginBottom: '5px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.title}
@@ -205,16 +209,16 @@ function ProjectDetail({ project, onBack }) {
             color: '#333',
             fontSize: '1.15rem',
             fontWeight: '500',
-            marginBottom: '28px',
+            marginBottom: '15px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.location}
           </div>
           <div style={{
             color: '#333',
-            fontSize: '1.03rem',
+            fontSize: '1rem',
             fontWeight: 'normal',
-            marginBottom: '36px',
+            marginBottom: '30px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.tagline}
@@ -240,10 +244,6 @@ function ProjectDetail({ project, onBack }) {
           {/* Before Column */}
           <div>
             <div style={{
-              position: 'sticky',
-              top: 0,
-              zIndex: 10,
-              background: '#f8f9fa',
               textAlign: 'center',
               marginBottom: '30px'
             }}>
@@ -302,10 +302,6 @@ function ProjectDetail({ project, onBack }) {
           {/* After Column */}
           <div>
             <div style={{
-              position: 'sticky',
-              top: 0,
-              zIndex: 10,
-              background: '#f8f9fa',
               textAlign: 'center',
               marginBottom: '30px'
             }}>
