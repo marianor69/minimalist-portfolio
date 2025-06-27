@@ -100,14 +100,12 @@ function ProjectTile({ project, onClick }) {
           }}
         />
       </div>
-      <div style={{
-        padding: '20px'
-      }}>
+      <div style={{ padding: '20px' }}>
         <h3 style={{
           fontWeight: 'bold',
           fontSize: '1.1rem',
           color: '#333',
-          marginBottom: '6px',
+          marginBottom: '5px',
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
@@ -115,19 +113,20 @@ function ProjectTile({ project, onClick }) {
         </h3>
         <div style={{
           color: '#333',
-          fontSize: '1rem',
-          marginBottom: '6px',
+          fontSize: '0.98rem',
+          marginBottom: '2px',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
+        }}>
+          {project.location}
+        </div>
+        <div style={{
+          color: '#444',
+          fontSize: '0.95rem',
+          marginBottom: '13px',
+          fontWeight: 'normal',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.tagline}
-        </div>
-        <div style={{
-          color: '#333',
-          fontSize: '0.96rem',
-          marginBottom: '10px',
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
-        }}>
-          {project.location}
         </div>
         <div style={{
           color: '#333',
@@ -192,23 +191,23 @@ function ProjectDetail({ project, onBack }) {
           }}>
             {project.title}
           </h1>
-          {project.tagline && (
-            <div style={{
-              color: '#333',
-              fontSize: '1.15rem',
-              marginBottom: '10px',
-              fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
-            }}>
-              {project.tagline}
-            </div>
-          )}
           <div style={{
             color: '#333',
-            fontSize: '1.1rem',
-            marginBottom: '20px',
+            fontSize: '1.13rem',
+            fontWeight: 'normal',
+            marginBottom: '7px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.location}
+          </div>
+          <div style={{
+            color: '#444',
+            fontSize: '1.08rem',
+            fontWeight: 'normal',
+            marginBottom: '18px',
+            fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
+          }}>
+            {project.tagline}
           </div>
           <p style={{
             fontSize: '1.1rem',
