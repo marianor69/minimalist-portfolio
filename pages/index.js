@@ -106,14 +106,15 @@ function ProjectTile({ project, onClick }) {
         />
       </div>
       <div style={{
-        padding: '10px' // Halved from 20px to 10px for less space!
+        padding: '10px',
+        textAlign: 'center' // This line centers the content
       }}>
         <h3 style={{
           fontWeight: 'bold',
           fontSize: '1.1rem',
           color: '#333',
           marginTop: '0',
-          marginBottom: '5px', // Halved from 10px to 5px
+          marginBottom: '5px',
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
