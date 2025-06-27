@@ -358,7 +358,7 @@ export const projects = [
     description:
       "From outdated to outstanding—this Cary home now features new layouts, bright bedrooms, custom closets, chef’s kitchen, and even a stunning accordion glass door for true indoor-outdoor living.",
     beforeImgs: [
-      "/images/Ellyn-before/1.jpeg",
+      "/images/Ellynn-after/20240822001622768932000000-o.jpeg",
       "/images/Ellyn-before/2.jpeg",
       "/images/Ellyn-before/3.jpeg",
       "/images/Ellyn-before/4.jpeg",
