@@ -4,13 +4,8 @@ import { projects } from '../src/data.js';
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const handleProjectClick = (project) => {
-    setSelectedProject(project);
-  };
-
-  const handleBackClick = () => {
-    setSelectedProject(null);
-  };
+  const handleProjectClick = (project) => setSelectedProject(project);
+  const handleBackClick = () => setSelectedProject(null);
 
   if (selectedProject) {
     return <ProjectDetail project={selectedProject} onBack={handleBackClick} />;
@@ -112,7 +107,7 @@ function ProjectTile({ project, onClick }) {
           fontWeight: 'bold',
           fontSize: '1.1rem',
           color: '#333',
-          marginBottom: '5px',
+          marginBottom: '6px',
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
@@ -120,24 +115,20 @@ function ProjectTile({ project, onClick }) {
         </h3>
         <div style={{
           color: '#333',
+          fontSize: '1rem',
+          marginBottom: '6px',
+          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
+        }}>
+          {project.tagline}
+        </div>
+        <div style={{
+          color: '#333',
           fontSize: '0.96rem',
-          fontWeight: '500',
           marginBottom: '10px',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
           {project.location}
         </div>
-        <p style={{
-          color: '#333',
-          fontSize: '0.9rem',
-          lineHeight: '1.4',
-          marginBottom: '15px',
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
-        }}>
-          {project.description.length > 100
-            ? project.description.substring(0, 100) + '...'
-            : project.description}
-        </p>
         <div style={{
           color: '#333',
           fontSize: '0.9rem',
@@ -196,15 +187,24 @@ function ProjectDetail({ project, onBack }) {
             fontSize: '2.5rem',
             fontWeight: 'bold',
             color: '#333',
-            marginBottom: '5px',
+            marginBottom: '7px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
             {project.title}
           </h1>
+          {project.tagline && (
+            <div style={{
+              color: '#333',
+              fontSize: '1.15rem',
+              marginBottom: '10px',
+              fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
+            }}>
+              {project.tagline}
+            </div>
+          )}
           <div style={{
             color: '#333',
-            fontSize: '1.15rem',
-            fontWeight: '500',
+            fontSize: '1.1rem',
             marginBottom: '20px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
@@ -272,10 +272,10 @@ function ProjectDetail({ project, onBack }) {
                       borderRadius: '5px'
                     }}
                   />
-                  <p style={{ 
-                    textAlign: 'center', 
-                    marginTop: '10px', 
-                    fontSize: '0.9rem', 
+                  <p style={{
+                    textAlign: 'center',
+                    marginTop: '10px',
+                    fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
                   }}>
@@ -330,10 +330,10 @@ function ProjectDetail({ project, onBack }) {
                       borderRadius: '5px'
                     }}
                   />
-                  <p style={{ 
-                    textAlign: 'center', 
-                    marginTop: '10px', 
-                    fontSize: '0.9rem', 
+                  <p style={{
+                    textAlign: 'center',
+                    marginTop: '10px',
+                    fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
                   }}>
