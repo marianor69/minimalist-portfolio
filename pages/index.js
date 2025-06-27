@@ -37,14 +37,14 @@ export default function Home() {
             marginBottom: '15px',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
-            NDC Home Renovations
+            New Domus Inc. Home Renovations
           </h1>
           <p style={{
             fontSize: '1.1rem',
             color: '#666',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
-            Transform your space with our expert renovation services
+            Transforming spaces with our expert renovation services
           </p>
         </header>
 
