@@ -280,7 +280,7 @@ function ProjectDetail({ project, onBack }) {
                   />
                   <p style={{
                     textAlign: 'center',
-                    marginTop: '10px',
+                    marginTop: '5px',
                     fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
@@ -338,7 +338,7 @@ function ProjectDetail({ project, onBack }) {
                   />
                   <p style={{
                     textAlign: 'center',
-                    marginTop: '10px',
+                    marginTop: '5px',
                     fontSize: '0.9rem',
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
