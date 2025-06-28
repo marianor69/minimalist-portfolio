@@ -144,6 +144,28 @@ export const projects = [
       //"/images/Powell-after/15.jpg",
       "/images/Powell-after/16.jpeg",
     ],
+  },{
+    title: "Regency Cottage Pl",
+    location: "CARY, NC",
+    tagline: "Exclusive Living, Elevated",
+    description:
+      "Nestled in an exclusive, private Cary subdivision, this custom-built home already stood out with its soaring 10-foot ceilings and quiet elegance. We refreshed its beauty inside and out: painting every wall, refinishing the floors, updating the carpet, adding a brand new deck, and giving the kitchen cabinets a fresh, modern look. The result is a move-in-ready home that feels both luxurious and inviting—perfect for those seeking comfort and style in a private setting.",
+    beforeImgs: [
+      "/images/Regency-before/1.jpg",
+      "/images/Regency-before/2.jpg",
+      "/images/Regency-before/3.jpg",
+      
+    ],
+    afterImgs: [
+      "/images/Regency-after/1.jpeg",
+      "/images/Regency-after/2.jpeg",
+      "/images/Regency-after/3.jpeg",
+      "/images/Regency-after/4.jpeg",
+      "/images/Regency-after/5.jpeg",
+      "/images/Regency-after/6.jpeg",
+
+      
+    ],
   },
   {
     title: "Carlisle St",
