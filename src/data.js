@@ -145,7 +145,7 @@ export const projects = [
       "/images/Powell-after/16.jpeg",
     ],
   },{
-    title: "Piendmont Av",
+    title: "Piedmont Av",
     location: "DURHAM, NC",
     tagline: "Spacious, Stylish, Effortless Living",
     description:
@@ -157,7 +157,7 @@ export const projects = [
       
     ],
     afterImgs: [
-      "/images/Piedmont-after/1.jpeg",
+      "/images/Piedmont-after/1.jpg",
 "/images/Piedmont-after/2.jpg",
 "/images/Piedmont-after/3.jpg",
 "/images/Piedmont-after/4.jpg",
