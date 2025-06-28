@@ -398,7 +398,7 @@ export const projects = [
 
     ],
     afterImgs: [
-      "/images/Ellynn-after/20240822001622768932000000-o.jpeg",
+      "/images/Ellynn-after/1.jpeg",
     ],
   },
   {
