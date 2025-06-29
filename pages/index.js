@@ -113,7 +113,7 @@ function ProjectTile({ project, onClick }) {
           fontWeight: 'bold',
           fontSize: '1.1rem',
           color: '#333',
-          marginBottom: '6px', // tighter space!
+          marginBottom: '6px',
           lineHeight: '1.3',
           fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
         }}>
@@ -137,15 +137,7 @@ function ProjectTile({ project, onClick }) {
         }}>
           {project.tagline}
         </div>
-        <div style={{
-          color: '#333',
-          fontSize: '0.8rem',
-          fontWeight: '600',
-          fontFamily: 'Verdana, Geneva, Tahoma, sans-serif',
-          textAlign: 'right'
-        }}>
-          View →
-        </div>
+        {/* "View →" removed as per your request */}
       </div>
     </div>
   );
