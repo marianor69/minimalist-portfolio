@@ -44,7 +44,7 @@ export default function Home() {
             color: '#666',
             fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
           }}>
-            Transforming spaces with our expert renovation services
+            See How We Transform Spaces—Select a Project Below.
           </p>
         </header>
 
@@ -231,6 +231,8 @@ function ProjectDetail({ project, onBack }) {
         }}>
           {/* Before Column */}
           <div>
+
+            {/*
             <div style={{
               position: 'sticky',
               top: 0,
@@ -253,6 +255,9 @@ function ProjectDetail({ project, onBack }) {
                 BEFORE
               </h2>
             </div>
+            */}
+
+
             <div style={{
               display: 'flex',
               flexDirection: 'column',
@@ -284,7 +289,7 @@ function ProjectDetail({ project, onBack }) {
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
                   }}>
-                    {img.split('/').pop()}
+{/* {img.split('/').pop()} */}
                   </p>
                 </div>
               ))}
@@ -293,6 +298,9 @@ function ProjectDetail({ project, onBack }) {
 
           {/* After Column */}
           <div>
+            
+            
+            {/*
             <div style={{
               position: 'sticky',
               top: 0,
@@ -315,6 +323,11 @@ function ProjectDetail({ project, onBack }) {
                 AFTER
               </h2>
             </div>
+            */}
+
+
+
+            
             <div style={{
               display: 'flex',
               flexDirection: 'column',
@@ -346,7 +359,7 @@ function ProjectDetail({ project, onBack }) {
                     color: '#666',
                     fontFamily: 'Verdana, Geneva, Tahoma, sans-serif'
                   }}>
-                    {img.split('/').pop()}
+{/* {img.split('/').pop()} */}
                   </p>
                 </div>
               ))}

@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: "Pine Mountain Dr",
-    location: "HOUSTON, NC",
+    title: "HOUSTON, TX",
+    //location: "HOUSTON, NC",
     tagline: "A Complete Comeback from Disaster",
     description:
       "After hurricane flooding, this home was rebuilt from the ground up—every bedroom, bath, and living space restored and upgraded. We delivered a brand new layout with an office, stylish dining, enhanced lighting, fresh insulation, and major curb appeal with new garage, siding, and brickwork. The transformation turned tragedy into a welcoming, modern family home.",
@@ -38,8 +38,9 @@ export const projects = [
     ],
   },
   {
-    title: "Blanca Springs Ct",
-    location: "HOUSTON, NC",
+   // title: "Blanca Springs Ct",
+    title: "HOUSTON, TX",
+    //location: "HOUSTON, NC",
     tagline: "Restored & Renewed After the Flood",
     description:
       "Every inch of this home was renewed after major flood damage. From brand new walls and floors to fresh paint, cabinets, and vanities, we delivered a “like new” space that’s ready for years of comfortable living.",
@@ -63,8 +64,8 @@ export const projects = [
     ],
   },
   {
-    title: "Welcome Dr",
-    location: "DURHAM, NC",
+    //title: "Welcome Dr",
+    title: "DURHAM, NC",
     tagline: "A Classic Ranch, Totally Reimagined",
     description:
       "We took a tired 1960s ranch house and brought it into the modern era—opening up spaces, installing hardwood floors, sleek new kitchen and baths, attic living space, and modern lighting throughout. Now it’s an inviting home with plenty of room to live, work, and relax.",
@@ -108,8 +109,8 @@ export const projects = [
     ],
   },
   {
-    title: "Powell Dr",
-    location: "RALEIGH, NC",
+    //title: "Powell Dr",
+    title: "RALEIGH, NC",
     tagline: "Modern, Bright, and Family-Ready",
     description:
       "We created an open and airy layout with a beautiful kitchen, luxury vinyl flooring, skylit attic living, and modern bathrooms. The finishing touch? A new deck for outdoor gatherings—making this the perfect home for busy families and entertaining.",
@@ -145,8 +146,8 @@ export const projects = [
       "/images/Powell-after/16.jpeg",
     ],
   },{
-    title: "Piedmont Av",
-    location: "DURHAM, NC",
+    //title: "Piedmont Av",
+    title: "DURHAM, NC",
     tagline: "Spacious, Stylish, Effortless Living",
     description:
       "This custom-built Durham home features spacious rooms, an open living area, and a dedicated office—perfect for work and relaxation. Our project focused on cosmetic upgrades: we repainted the walls, refinished the floors, and enhanced the outdoor spaces by adding a new front fence and fresh grass in the backyard. The result is a welcoming home with great flow and inviting green spaces, ideal for everyday living and entertaining.",
@@ -192,8 +193,8 @@ export const projects = [
       
     ],
   },{
-    title: "Regency Cottage Pl",
-    location: "CARY, NC",
+   // title: "Regency Cottage Pl",
+    title: "CARY, NC",
     tagline: "Exclusive Living, Elevated",
     description:
       "Nestled in an exclusive, private Cary subdivision, this custom-built home already stood out with its soaring 10-foot ceilings and quiet elegance. We refreshed its beauty inside and out: painting every wall, refinishing the floors, updating the carpet, adding a brand new deck, and giving the kitchen cabinets a fresh, modern look. The result is a move-in-ready home that feels both luxurious and inviting—perfect for those seeking comfort and style in a private setting.",
@@ -215,8 +216,8 @@ export const projects = [
     ],
   },
   {
-    title: "Carlisle St",
-    location: "RALEIGH, NC",
+    //title: "Carlisle St",
+    title: "RALEIGH, NC",
     tagline: "Rebuilt for a Fresh Start",
     description:
       "On this large Raleigh lot, we completely redesigned the home—new flooring, modern kitchen, beautiful bathrooms, an added office and bedroom, and a smart, spacious layout for easy living.",
@@ -243,8 +244,8 @@ export const projects = [
     ],
   },
   {
-    title: "Crafton Park Ln",
-    location: "CARY, NC",
+    //title: "Crafton Park Ln",
+    title: "CARY, NC",
     tagline: "Space for Family & Guests—Top to Bottom!",
     description:
       "This Cary attic was transformed into a stunning guest suite, complete with a bathroom and insulated garage. We also refreshed the master bath and created new laundry and storage rooms—maximizing comfort and convenience for the whole family.",
@@ -268,8 +269,8 @@ export const projects = [
     ],
   },
   {
-    title: "Hartsfield Dr",
-    location: "WAKE FOREST, NC",
+    //title: "Hartsfield Dr",
+    title: "WAKE FOREST, NC",
     tagline: "From Bare Bones to Beautiful Home",
     description:
       "Nearly a tear-down, this house received a full structural and cosmetic revival: new foundation, subfloors, insulation, roof, windows, HVAC, bathrooms, kitchen, lighting, decks, and landscaping. It’s now as solid as it is stylish!",
@@ -319,8 +320,8 @@ export const projects = [
     ],
   },
   {
-    title: "Joel Ct",
-    location: "CARY, NC",
+    //title: "Joel Ct",
+    title: "CARY, NC",
     tagline: "Open, Bright, & Modernized for Today",
     description:
       "An outdated 1980s house turned into a modern dream: open kitchen, beautiful hardwoods, updated bathrooms, and lush landscaping. The result is a cheerful, open home perfect for modern living.",
@@ -348,8 +349,8 @@ export const projects = [
     ],
   },
   {
-    title: "Caniff Ln",
-    location: "CARY, NC",
+    //title: "Caniff Ln",
+    title: "CARY, NC",
     tagline: "Luxury Finishes, Stunning Outdoor Living",
     description:
       "We gave this house the “wow” factor: elegant hardwood floors, sleek kitchen, modern lighting, spa bathrooms, and an inviting outdoor patio with landscaping for seamless indoor-outdoor living.",
@@ -387,8 +388,8 @@ export const projects = [
     ],
   },
   {
-    title: "Wyman Pl",
-    location: "DURHAM, NC",
+    //title: "Wyman Pl",
+    title: "DURHAM, NC",
     tagline: "A Modern Home Built for Entertaining",
     description:
       "We transformed a Durham ranch into a modern, open space: added a bedroom and bath, installed new hardwood floors, private fencing, and a new deck with indoor-outdoor flow for great gatherings.",
@@ -421,8 +422,8 @@ export const projects = [
     ],
   },
   {
-    title: "Ellynn Dr",
-    location: "CARY, NC",
+    //title: "Ellynn Dr",
+    title: "CARY, NC",
     tagline: "Completely Customized, Just for You",
     description:
       "From outdated to outstanding—this Cary home now features new layouts, bright bedrooms, custom closets, chef’s kitchen, and even a stunning accordion glass door for true indoor-outdoor living.",
@@ -449,8 +450,8 @@ export const projects = [
     ],
   },
   {
-    title: "New Hope Church Rd",
-    location: "RALEIGH, NC",
+    //title: "New Hope Church Rd",
+    title: "RALEIGH, NC",
     tagline: "Future-Ready with Style",
     description:
       "We fully reimagined this Raleigh ranch—adding a carport, new kitchen and baths, laundry, private office, open concept, and fully encapsulated crawl space. Everything’s designed for easy, stylish, modern living.",
